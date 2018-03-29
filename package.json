@@ -1,7 +1,7 @@
 {
-  "name": "my-first-scss-project",
+  "name": "scss_boilerplate",
   "version": "1.0.0",
-  "description": "A Newsletter signup panel",
+  "description": "A SCSS boilerplate",
   "main": "index.html",
   "scripts": {
     "start": "nodemon -e scss -x \"npm run start:compass && npm run start:postcss\"",
@@ -12,6 +12,10 @@
     "dogs",
     "newsletter"
   ],
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/Lindberg1984/scss_boilerplate"
+  },
   "author": "Michael Lindberg",
   "license": "ISC",
   "devDependencies": {
