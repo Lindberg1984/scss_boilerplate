@@ -1,0 +1,33 @@
+{
+  "name": "my-first-scss-project",
+  "version": "1.0.0",
+  "description": "A Newsletter signup panel",
+  "main": "index.html",
+  "scripts": {
+    "start": "nodemon -e scss -x \"npm run start:compass && npm run start:postcss\"",
+    "start:compass": "node-sass -r scss -o public/css",
+    "start:postcss": "postcss ./public/css/*css -d ./public/css"
+  },
+  "keywords": [
+    "dogs",
+    "newsletter"
+  ],
+  "author": "Michael Lindberg",
+  "license": "ISC",
+  "devDependencies": {
+    "cssnano": "^3.10.0",
+    "node-sass": "^4.8.3",
+    "nodemon": "^1.17.2",
+    "npm": "^5.8.0",
+    "npm-run-parallel": "^0.6.0",
+    "postcss": "^6.0.21",
+    "postcss-browser-reporter": "^0.5.0",
+    "postcss-cli": "^5.0.0",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^11.1.0",
+    "postcss-url": "^7.3.1",
+    "prettier": "^1.11.1",
+    "stylelint": "^9.1.3",
+    "stylelint-scss": "^2.5.0"
+  }
+}
