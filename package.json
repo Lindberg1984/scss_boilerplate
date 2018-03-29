@@ -13,8 +13,8 @@
     "newsletter"
   ],
   "repository": {
-    "type" : "git",
-    "url" : "https://github.com/Lindberg1984/scss_boilerplate"
+    "type": "git",
+    "url": "https://github.com/Lindberg1984/scss_boilerplate"
   },
   "author": "Michael Lindberg",
   "license": "ISC",
